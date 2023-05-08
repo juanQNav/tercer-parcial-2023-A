@@ -41,6 +41,6 @@ public class ShoppingCart {
                 .collect(Collectors.toList());
     }
     public Collection<ShoppingItem> getDistinctItems() {
-        return null;
+        return items.keySet();
     }
 }
